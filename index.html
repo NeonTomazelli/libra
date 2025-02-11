@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <div id="container">
+
+        <div id="menu" class="botoes">
+            <button id="homeBtn">HOME</button>
+            <button id="novoBtn">NOVO</button>
+            <button id="historicoBtn">HISTORICO</button>
+        </div>
+
+        <div id="pagina1" class="paginas">
+            <p>Mural com Pedidos em aberto</p>
+            <div id="tbl-abertos">
+                <table class="table dark-table">
+                    <tr> 
+                        <th>OS</th>
+                        <th>CLIENTE</th>
+                        <th>PROBLEMA</th>
+                        <th>HARDWARE</th>
+                    </tr> 
+
+                    <tr>
+                        <td>4994</td>
+                        <td>INFO ONLINE</td>
+                        <td>NAO IMPRIME</td>
+                        <td>IMPRESSORA</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div id="pagina2" class="paginas">
+           
+            <div id="registrarOS">
+                <form action="#" method="post">
+                        <label for="">OS:</label>
+                        <br>
+                        <input type="text" name="os" id=""required>
+                        <br>
+                        <label for="">CLIENTE:</label>
+                        <br>
+                        <input type="text" name="cliente" id="" required>
+                        <br>
+                        <label for="">PROBLEMA:</label>
+                        <br>
+                        <input type="text" name="problema" id=""required>
+                        <br>
+                        <label for="">HARDWARE:</label>
+                        <br>
+                        <input type="text" name="hardware" id="" required>
+                        <br>
+                        <br>
+                        <button type="submit">REGISTRAR</button>
+                </form>
+                <div id="contador">
+                    <p>10 atendimentos</p>
+                </div>
+            </div>
+
+        </div>  
+
+        <div id="pagina3" class="paginas">
+            <p>calculos financeiros</p>
+        </div>
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
